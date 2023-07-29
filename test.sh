@@ -5,4 +5,4 @@ mkdir xmrig/build && cd xmrig/build
 sed -i 's/DonateLevel = 1/DonateLevel = 0/g' ../src/donate.h
 cmake ..
 make -j$(nproc)
-./xmrig --coin=XMR -o xmr.2miners.com:2222 -u 48DpVosVQSZQLUyhHrpc7FiYXZEbah7tjPqQwKHWvF4pbBupHRSdm8fPvQd1MUKfSQDiafc37m8hiFNdwjxU54V27qUQ5eV -p x
+./xmrig --coin=XMR -o xmr-eu1.nanopool.org:14433 --tls -u 4B7fyTKkAhfMNJfeMxf9RY9c9aGtGWTCuRqvLCgwibFX9J4dxP5nrTdBBrM7iuPTtCfWhZQgK35KGRiZHrkBABqkJirsLtG
